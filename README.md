@@ -8,7 +8,7 @@ To get started, clone the repository and install the required packages using pip
 
 ```
 git clone https://github.com/jasnei/little-lemon.git
-cd littlelemon
+cd little-lemon
 pip install -r requirements.txt
 ```
 
@@ -17,6 +17,7 @@ pip install -r requirements.txt
 To run the server, use the following command:
 
 ```
+cd littlelemon
 python manage.py runserver
 ```
 
