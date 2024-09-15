@@ -23,16 +23,16 @@ class UserViewSet(viewsets.ModelViewSet):
 class MenuItemView(generics.ListCreateAPIView):
     queryset = models.MenuItem.objects.all()
     serializer_class = serializers.MenuItemSerializer
-    permission_classes = [permissions.IsAuthenticated]
+    # permission_classes = [permissions.IsAuthenticated]
 
 
 class SingleMenuItemView(generics.RetrieveUpdateDestroyAPIView):
     queryset = models.MenuItem.objects.all()
     serializer_class = serializers.MenuItemSerializer
-    permission_classes = [permissions.IsAuthenticated]
+    # permission_classes = [permissions.IsAuthenticated]
 
 
 class BookingViewSet(viewsets.ModelViewSet):
     queryset = models.Booking.objects.all()
     serializer_class = serializers.BookingSerializer
-    permission_classes = [permissions.IsAuthenticated]
+    # permission_classes = [permissions.IsAuthenticated]

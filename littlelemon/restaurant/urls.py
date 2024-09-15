@@ -13,7 +13,7 @@ urlpatterns = [
     path('', include(router.urls), name='users'),  # noqa # Includes URLs from the router
     # path('restaurant/booking/', include(router.urls)),
     path('api-auth', include('rest_framework.urls', namespace='rest_framework')),  # noqa Enables browsable API
-    path('menu-items', views.MenuItemView.as_view()),
+    path('menu-items', views.MenuItemView.as_view(), name='menu-items'),
     path('menu-items/<int:pk>', views.SingleMenuItemView.as_view()),
     path('api-token-auth', obtain_auth_token),
 ]
