@@ -36,6 +36,11 @@ The API has the following endpoints:
 |api/menu-items/{id} | GET | Get a specific menu item |
 |api/menu-items/{id} | PUT | Update a specific menu item |
 |api/menu-items/{id} | DELETE | Delete a specific menu item |
+|api/tables/ | GET | Get a list of all bookings |
+|api/tables/ | POST | Create a new booking |
+|api/tables/{id} | GET | Get a specific booking |
+|api/tables/{id} | PUT | Update a specific booking |
+|api/tables/{id} | DELETE | Delete a specific booking |
 
 
 
